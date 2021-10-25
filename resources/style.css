@@ -1,5 +1,34 @@
+/* ===[ GLOBAL SETTINGS ]=== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ===[ NAVIGATION ]=== */
+
+nav {
+  padding: 10px 20px;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 10px 15px;
+}
+
+nav a {
+  text-decoration: none;
 }
